@@ -8,7 +8,7 @@ body,
     display: grid;
     width: 700px;
     height: 400px;
-    grid-template-columns: repeat(2, 340px);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: [first] auto [second] 200px [third] auto;
     gap: 20px;
 }
